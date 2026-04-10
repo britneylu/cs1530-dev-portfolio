@@ -63,12 +63,19 @@ h3 {
 
 /* Skills */
 ul {
-  list-style: disc;
-  padding-left: 1.5rem;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 li {
-  margin-bottom: 0.25rem;
+  background: #f3f3f3;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  color: #333;
 }
 
 /* Footer */
